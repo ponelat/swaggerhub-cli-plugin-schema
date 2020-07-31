@@ -1,6 +1,6 @@
 const {expect, test} = require('@oclif/test')
-const config = require('~/src/config')
-const {splitHostFromPath} = require('~/src/utils')
+const config = require('../../../src/config')
+const {splitHostFromPath} = require('../../../src/utils')
 
 describe('schema:get', () => {
 

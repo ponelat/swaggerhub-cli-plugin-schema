@@ -1,5 +1,5 @@
 const {Command, flags} = require('@oclif/command')
-const {getCatalogSchemaNames} = require('~/src/catalog.js')
+const {getCatalogSchemaNames} = require('../../../src/catalog')
 
 class ListCommand extends Command {
   async run() {

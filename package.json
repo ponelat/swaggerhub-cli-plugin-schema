@@ -7,8 +7,7 @@
   "dependencies": {
     "@oclif/command": "^1.7.0",
     "@oclif/config": "^1.16.0",
-    "node-fetch": "^2.6.0",
-    "~": "."
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1.22.2",
