@@ -11,7 +11,7 @@ class GetCommand extends Command {
     if(!res.ok)
       this.error('Failed to fetch schema file!')
     const json = await res.json()
-    this.log(JSON.stringify(json))
+    this.log(JSON.stringify(json, null, 2))
   }
 }
 

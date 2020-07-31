@@ -36,7 +36,6 @@ describe('schema:get', () => {
     expect(json).to.include({hello: true})
   })
 
-
   test
   .nock(catalogUrlBase,
         api => api
