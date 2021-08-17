@@ -19,7 +19,7 @@ $ npm install -g swaggerhub-cli-plugin-schema
 $ oclif-example COMMAND
 running command...
 $ oclif-example (-v|--version|version)
-swaggerhub-cli-plugin-schema/0.0.0 linux-x64 node-v14.6.0
+swaggerhub-cli-plugin-schema/0.0.0 linux-x64 node-v12.13.1
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -28,31 +28,12 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`oclif-example hello`](#oclif-example-hello)
 * [`oclif-example schema:get SCHEMA-NAME`](#oclif-example-schemaget-schema-name)
 * [`oclif-example schema:list`](#oclif-example-schemalist)
 
-## `oclif-example hello`
-
-Describe the command here
-
-```
-USAGE
-  $ oclif-example hello
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
-```
-
-_See code: [src/commands/hello.js](https://github.com/ponelat/swaggerhub-cli-plugin-schema/blob/v0.0.0/src/commands/hello.js)_
-
 ## `oclif-example schema:get SCHEMA-NAME`
 
-Describe the command here
+Fetch a JSON Schema named NAME.
 
 ```
 USAGE
@@ -70,18 +51,15 @@ _See code: [src/commands/schema/get.js](https://github.com/ponelat/swaggerhub-cl
 
 ## `oclif-example schema:list`
 
-Describe the command here
+List the schemas available
 
 ```
 USAGE
   $ oclif-example schema:list
 
-OPTIONS
-  -n, --name=name  name to print
-
 DESCRIPTION
   ...
-  Extra documentation goes here
+  List the schemas available from schemastore.org
 ```
 
 _See code: [src/commands/schema/list.js](https://github.com/ponelat/swaggerhub-cli-plugin-schema/blob/v0.0.0/src/commands/schema/list.js)_
